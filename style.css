@@ -9,6 +9,7 @@ body{
     background-color:#081b29;
     width: 100%;
     color: #ededed;
+    margin: 0%;
     /* overflow-x: hidden; */
 }
 .header{
@@ -31,6 +32,7 @@ body{
 }
 .navbar-toggler.navbar-toggler {
     border-color: #ededed;
+    color: #ededed;
   } 
 
 .logo{
@@ -80,6 +82,10 @@ span {
     
 
 }
+/* .container{
+    margin-top: auto;
+    background: #fff;
+} */
 .home-content{
     max-width: 650px;
 }
@@ -94,7 +100,7 @@ span {
     line-height: 1.2;
     color: #ededed;
 }
- /* .home-content h1::before{
+ .home-content h1::before{
     content: '';
     position: absolute;
     top: 0;
@@ -104,14 +110,14 @@ span {
     background: #081b29;
     animation: showRight 1s ease forwards;
     animation-delay: 1s;
-} */
+}
 .home-content h3{
     position: relative;
     font-size: 32px;
     font-weight: 700;
     color: #00abf0;
 }
-/* .home-content h3::before{
+.home-content h3::before{
     content: '';
     position: absolute;
     top: 0;
@@ -121,7 +127,7 @@ span {
     background: #081b29;
     animation: showRight 1s ease forwards;
     animation-delay: 1.3s;
-} */
+}
 
 .home-content p{
     position: relative;
@@ -130,7 +136,7 @@ span {
     color: #ededed;
 }
 
-/* .home-content p::before{
+.home-content p::before{
     content: '';
     position: absolute;
     top: 0;
@@ -140,7 +146,7 @@ span {
     background: #081b29;
     animation: showRight 1s ease forwards;
     animation-delay: 1.6s;
-} */
+}
 .home-content .btn-box{
     display: flex;
     justify-content: space-between;
@@ -148,7 +154,7 @@ span {
     height: 50px;
 }
 
-/* .home-content .btn-box::before{
+.home-content .btn-box::before{
     content: '';
     position: absolute;
     top: 0;
@@ -159,7 +165,7 @@ span {
     animation: showRight 1s ease forwards;
     animation-delay: 1.9s;
     z-index: 2;
-} */
+}
 /* hire me  */
 .btn-box a {
     position: relative;
@@ -330,11 +336,11 @@ span {
     }
 }
 
-/* @keyframes maniActiveHover{
+@keyframes maniActiveHover{
     100%{
         pointer-events: auto;
     }
-} */
+}
 
 
 .about{
@@ -365,7 +371,7 @@ span {
     /* width: 100%; */
     /* display: flex; */
     justify-content: space-between;
-    margin: 20px;
+    margin: 7px;
     color: #ededed;
     
 }
@@ -481,7 +487,7 @@ span {
 } */
 .footer-dark {
     padding:50px 0;
-    width: 100;
+    width: 100%;
     color:#f0f9ff;
     background-color:#0e0d0d;
   }
